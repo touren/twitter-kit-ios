@@ -379,9 +379,8 @@ static TWTRTwitter *sharedTwitter;
 
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url options:(NSDictionary *)options
 {
-    NSString *sourceApplication = options[UIApplicationOpenURLOptionsSourceApplicationKey];
-    BOOL isSSOBundle = [self.mobileSSO isSSOWithSourceApplication:sourceApplication];
-    BOOL isWeb = [self.mobileSSO isWebWithSourceApplication:sourceApplication];
+    BOOL isSSOBundle = [self.mobileSSO isSSOWithURL:url];
+    BOOL isWeb = [self.mobileSSO isWebWithURL:url];
 
     if (isSSOBundle) {
         [self.mobileSSO processRedirectURL:url];

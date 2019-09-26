@@ -74,6 +74,18 @@
     return [sourceApplication hasPrefix:@"com.apple"] || [sourceApplication isEqualToString:bundleID];
 }
 
+- (BOOL)isSSOWithURL:(NSURL *)url
+{
+    return [url.host containsString:@"secret="] &&
+    [url.host containsString:@"secret="] &&
+    [url.host containsString:@"username="] ;
+}
+
+- (BOOL)isWebWithURL:(NSURL *)url
+{
+    return [url.host isEqualToString:@"callback"];
+}
+
 - (void)triggerInvalidSourceError
 {
     dispatch_async(dispatch_get_main_queue(), ^{

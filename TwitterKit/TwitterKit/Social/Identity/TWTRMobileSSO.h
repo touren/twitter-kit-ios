@@ -53,14 +53,25 @@ typedef void (^TWTRMobileSSOCompletion)(BOOL twitterAppInstalled);
  *
  *  Returns YES if the source application is Twitter sanctioned, NO otherwise.
  */
-- (BOOL)isSSOWithSourceApplication:(NSString *)sourceApplication;
+
+- (BOOL)isSSOWithSourceApplication:(NSString *)sourceApplication __attribute__((deprecated("Use isSSOWithURL: in iOS 13 or later")));
 
 /**
  *  Determines if the source application sent from web is valid.
  *
  *  Returns YES if the source application is Twitter sanctioned, NO otherwise.
  */
-- (BOOL)isWebWithSourceApplication:(NSString *)sourceApplication;
+- (BOOL)isWebWithSourceApplication:(NSString *)sourceApplication __attribute__((deprecated("Use isWebWithURL: in iOS 13 or later")));
+
+/**
+ *  Determines if the url sent from the calling applciation is valid.
+ */
+- (BOOL)isSSOWithURL:(NSURL *)url;
+
+/**
+ *  Determines if the url sent from web is valid.
+ */
+- (BOOL)isWebWithURL:(NSURL *)url;
 
 /**
  *  Triggers an error completion when invalid source is detected
