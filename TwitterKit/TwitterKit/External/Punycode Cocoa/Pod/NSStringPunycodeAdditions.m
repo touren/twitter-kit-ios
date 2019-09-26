@@ -170,7 +170,7 @@ static NSUInteger adapt(unsigned delta, unsigned numpoints, BOOL firsttime)
             }
         }
 
-        ++delta, ++n;
+        (void)(++delta), ++n;
     }
 
     return ret;

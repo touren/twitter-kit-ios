@@ -666,7 +666,7 @@ static id<TWTRSessionStore_Private> TWTRSharedSessionStore = nil;
     return [[TWTRMultipartFormDocument alloc] initWithFormElements:@[mediaElement]];
 }
 
-- (nullable NSString *)mediaIDFromResponseData:(NSData *)data error:(NSError **)error
+- (nullable NSString *)mediaIDFromResponseData:(NSData *)data error:(NSError * __autoreleasing *)error
 {
     NSString *mediaID;
     void (^setError)(NSError *) = ^(NSError *errorToSet) {
