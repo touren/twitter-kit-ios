@@ -2968,7 +2968,7 @@
 				ORGANIZATIONNAME = Twitter;
 				TargetAttributes = {
 					A966541318EB687000B61CEE = {
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Manual;
 						TestTargetID = A97654E418E0B29B00E25169;
 					};
