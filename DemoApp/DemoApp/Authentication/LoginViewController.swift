@@ -200,7 +200,7 @@ class LoginViewController: UIViewController {
     private func setupTitleLabel() {
         titleLabel.topAnchor.constraint(equalTo: loginView.topAnchor, constant: 10.0).isActive = true
         titleLabel.centerXAnchor.constraint(equalTo: loginView.centerXAnchor).isActive = true
-        titleLabel.heightAnchor.constraint(equalToConstant: 30.0)
-        titleLabel.widthAnchor.constraint(equalToConstant: 100.0)
+        titleLabel.heightAnchor.constraint(equalToConstant: 30.0).isActive = true
+        titleLabel.widthAnchor.constraint(equalToConstant: 180.0).isActive = true
     }
 }

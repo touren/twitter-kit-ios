@@ -63,7 +63,7 @@ class TweetOptionsView: UIView {
     }
 
     private func setting(for option: TweetOption) -> Any? {
-        guard let index = options.index(of: option) else { return nil }
+        guard let index = options.firstIndex(of: option) else { return nil }
         let indexPath = IndexPath(row: index, section: 0)
 
         if let cell = tableView.cellForRow(at: indexPath) as? TweetOptionTableViewCell {
