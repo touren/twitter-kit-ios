@@ -541,10 +541,9 @@
 			};
 			buildConfigurationList = 379A6CA21E95B47300625984 /* Build configuration list for PBXProject "DemoApp" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
