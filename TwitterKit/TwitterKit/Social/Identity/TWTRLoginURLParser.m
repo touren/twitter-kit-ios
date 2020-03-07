@@ -69,7 +69,7 @@
 - (BOOL)isMobileSSOCancelURL:(NSURL *)url
 {
     BOOL properScheme = [self isTwitterKitRedirectURL:url];
-    BOOL cancelState = (url.host == nil) && properScheme;
+    BOOL cancelState = (url.host == nil);
 
     BOOL isCancelURL = properScheme && cancelState;
 
