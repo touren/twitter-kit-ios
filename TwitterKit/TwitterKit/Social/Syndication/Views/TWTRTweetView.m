@@ -340,9 +340,15 @@ static TWTRTweetViewTheme const TWTRTweetViewDefaultTheme = TWTRTweetViewThemeLi
     self.layer.cornerRadius = self.showBorder ? TWTRTweetViewCornerRadius : 0.0;
     self.clipsToBounds = YES;
 
+  if (self.tweet.isQuoteTweet) {
     self.attachmentContainer.layer.borderColor = borderColor.CGColor;
     self.attachmentContainer.layer.borderWidth = (2 * TWTRTweetViewBorderWidth);
     self.attachmentContainer.layer.cornerRadius = TWTRTweetViewCornerRadius;
+  } else {
+    self.attachmentContainer.layer.borderColor = UIColor.clearColor.CGColor;
+    self.attachmentContainer.layer.borderWidth = 0;
+    self.attachmentContainer.layer.cornerRadius = 0;
+  }
 }
 
 - (void)setShowActionButtons:(BOOL)showActionButtons
