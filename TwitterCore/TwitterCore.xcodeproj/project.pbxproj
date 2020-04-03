@@ -1385,7 +1385,7 @@
 		9D5A92191AAA89730039EFCC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Twitter Inc.";
 				TargetAttributes = {
 					9D5A92201AAA89730039EFCC = {
@@ -1402,13 +1402,14 @@
 			};
 			buildConfigurationList = 9D5A921C1AAA89730039EFCC /* Build configuration list for PBXProject "TwitterCore" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				ja,
 				ko,
 				"zh-Hans",
+				Base,
 			);
 			mainGroup = 9D5A92181AAA89730039EFCC;
 			productRefGroup = 9D5A92221AAA89730039EFCC /* Products */;
