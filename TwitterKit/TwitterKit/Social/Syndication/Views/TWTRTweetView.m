@@ -453,9 +453,8 @@ static TWTRTweetViewTheme const TWTRTweetViewDefaultTheme = TWTRTweetViewThemeLi
         [subview removeFromSuperview];
     }
 
-    // Currently only show a quote tweet as an attachment
-    // If content view already has media, does not show a quote tweet attachment
-    if (tweet.isQuoteTweet && !tweet.hasMedia) {
+    // FIX(@benward): Twitter now allows Quote Tweets and photos together
+    if (tweet.isQuoteTweet) {
         id<TWTRTweetContentViewLayout> layout = [TWTRTweetContentViewLayoutFactory quoteTweetViewLayoutWithMetrics:self.metrics];
         TWTRTweetContentView *contentView = [[TWTRTweetContentView alloc] initWithLayout:layout];
         [self.attachmentContainer addSubview:contentView];
