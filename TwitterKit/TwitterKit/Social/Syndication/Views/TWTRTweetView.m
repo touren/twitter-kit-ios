@@ -340,9 +340,15 @@ static TWTRTweetViewTheme const TWTRTweetViewDefaultTheme = TWTRTweetViewThemeLi
     self.layer.cornerRadius = self.showBorder ? TWTRTweetViewCornerRadius : 0.0;
     self.clipsToBounds = YES;
 
+  if (self.tweet.isQuoteTweet) {
     self.attachmentContainer.layer.borderColor = borderColor.CGColor;
     self.attachmentContainer.layer.borderWidth = (2 * TWTRTweetViewBorderWidth);
     self.attachmentContainer.layer.cornerRadius = TWTRTweetViewCornerRadius;
+  } else {
+    self.attachmentContainer.layer.borderColor = UIColor.clearColor.CGColor;
+    self.attachmentContainer.layer.borderWidth = 0;
+    self.attachmentContainer.layer.cornerRadius = 0;
+  }
 }
 
 - (void)setShowActionButtons:(BOOL)showActionButtons
@@ -453,9 +459,8 @@ static TWTRTweetViewTheme const TWTRTweetViewDefaultTheme = TWTRTweetViewThemeLi
         [subview removeFromSuperview];
     }
 
-    // Currently only show a quote tweet as an attachment
-    // If content view already has media, does not show a quote tweet attachment
-    if (tweet.isQuoteTweet && !tweet.hasMedia) {
+    // FIX(@benward): Twitter now allows Quote Tweets and photos together
+    if (tweet.isQuoteTweet) {
         id<TWTRTweetContentViewLayout> layout = [TWTRTweetContentViewLayoutFactory quoteTweetViewLayoutWithMetrics:self.metrics];
         TWTRTweetContentView *contentView = [[TWTRTweetContentView alloc] initWithLayout:layout];
         [self.attachmentContainer addSubview:contentView];
