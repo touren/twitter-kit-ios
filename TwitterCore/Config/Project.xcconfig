@@ -39,7 +39,6 @@ GCC_WARN_ABOUT_MISSING_NEWLINE = YES
 GCC_PRECOMPILE_PREFIX_HEADER = YES
 
 MODULEMAP_FILE = TwitterCore-$(FAB_PRODUCT_BUNDLE_IDENTIFIER_SUFFIX)-module.modulemap
-MODULEMAP_PRIVATE_FILE = TwitterCore-module.private.modulemap
 
 OTHER_LDFLAGS = $(inherited) -ObjC
 OTHER_LDFLAGS[sdk=macosx*] = $(inherited) -framework Cocoa
