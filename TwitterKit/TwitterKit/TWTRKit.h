@@ -34,8 +34,6 @@
 #import "TWTRListTimelineDataSource.h"
 #import "TWTRLogInButton.h"
 #import "TWTRMediaEntitySize.h"
-#import "TWTRMoPubAdConfiguration.h"
-#import "TWTRMoPubNativeAdContainerView.h"
 #import "TWTRNotificationConstants.h"
 #import "TWTROAuthSigning.h"
 #import "TWTRSearchTimelineDataSource.h"

@@ -154,9 +154,6 @@
 		9D30C5AC1ACE5EBC00D0B1FA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D30C5AB1ACE5EBC00D0B1FA /* CoreData.framework */; };
 		9D30C5AD1ACE5EC700D0B1FA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D30C5AB1ACE5EBC00D0B1FA /* CoreData.framework */; };
 		9D30C5AE1ACE5F2400D0B1FA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D30C5AB1ACE5EBC00D0B1FA /* CoreData.framework */; };
-		9D30C5CE1ACE60E200D0B1FA /* TWTRIdentifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D30C5CC1ACE60E200D0B1FA /* TWTRIdentifier.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		9D30C5CF1ACE60E200D0B1FA /* TWTRIdentifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D30C5CC1ACE60E200D0B1FA /* TWTRIdentifier.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		9D30C5D01ACE60E200D0B1FA /* TWTRIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D30C5CD1ACE60E200D0B1FA /* TWTRIdentifier.m */; };
 		9D56452F1ACE2C1300633C16 /* TWTRAuthenticationConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D56452C1ACE2C1300633C16 /* TWTRAuthenticationConstants.m */; };
 		9D5645391ACE2C6600633C16 /* TWTRGuestSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D5645371ACE2C6600633C16 /* TWTRGuestSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D56453A1ACE2C6600633C16 /* TWTRGuestSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D5645371ACE2C6600633C16 /* TWTRGuestSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -441,8 +438,6 @@
 		9D30C5A51ACE5EA000D0B1FA /* TWTRMultiThreadUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRMultiThreadUtil.h; sourceTree = "<group>"; };
 		9D30C5A61ACE5EA000D0B1FA /* TWTRMultiThreadUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRMultiThreadUtil.m; sourceTree = "<group>"; };
 		9D30C5AB1ACE5EBC00D0B1FA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		9D30C5CC1ACE60E200D0B1FA /* TWTRIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRIdentifier.h; sourceTree = "<group>"; };
-		9D30C5CD1ACE60E200D0B1FA /* TWTRIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRIdentifier.m; sourceTree = "<group>"; };
 		9D348B411AAFE73B007837FB /* TwitterCore-ios-module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "TwitterCore-ios-module.modulemap"; sourceTree = "<group>"; };
 		9D3E7CD71B1A35260042B1CC /* TWTRAppAuthProvider_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRAppAuthProvider_Private.h; sourceTree = "<group>"; };
 		9D4545471AB23B6200730817 /* TwitterCore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitterCore-Info.plist"; sourceTree = "<group>"; };
@@ -784,8 +779,6 @@
 		9D0AE5AD1AC73F2A00884B45 /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				9D30C5CC1ACE60E200D0B1FA /* TWTRIdentifier.h */,
-				9D30C5CD1ACE60E200D0B1FA /* TWTRIdentifier.m */,
 				9D0AE5AE1AC73F3B00884B45 /* TWTRUserSessionVerifier.h */,
 				9D0AE5AF1AC73F3B00884B45 /* TWTRUserSessionVerifier.m */,
 			);
@@ -1180,7 +1173,6 @@
 				9D5645701ACE2F3100633C16 /* TWTRAuthenticator.h in Headers */,
 				9D30C5A81ACE5EA000D0B1FA /* TWTRMultiThreadUtil.h in Headers */,
 				3D98960F1B9621CF00B9CABD /* TWTRTokenOnlyAuthSession.h in Headers */,
-				9D30C5CF1ACE60E200D0B1FA /* TWTRIdentifier.h in Headers */,
 				9D0AE5B71AC7400500884B45 /* TWTRDateUtil.h in Headers */,
 				6C37A1CA1B22505900C360B4 /* TWTRCoreLanguage.h in Headers */,
 				3DEEF7C31B7A769A00A1B457 /* TWTRNetworkingConstants.h in Headers */,
@@ -1287,7 +1279,6 @@
 				9D5645391ACE2C6600633C16 /* TWTRGuestSession.h in Headers */,
 				DBC0F0891B55C161006B6BB6 /* TWTRRequestSigningOperation.h in Headers */,
 				9D0AE5B01AC73F3B00884B45 /* TWTRUserSessionVerifier.h in Headers */,
-				9D30C5CE1ACE60E200D0B1FA /* TWTRIdentifier.h in Headers */,
 				9D30C5651ACE336D00D0B1FA /* TWTRUserAPIClient.h in Headers */,
 				DBC0F0851B55C161006B6BB6 /* TWTRNetworkingPipelinePackage.h in Headers */,
 				DBC0F0871B55C161006B6BB6 /* TWTRNetworkingPipelineQueue.h in Headers */,
@@ -1470,7 +1461,6 @@
 				9D56452F1ACE2C1300633C16 /* TWTRAuthenticationConstants.m in Sources */,
 				6C3998E51AE8640C00870DB5 /* TWTRAPIServiceConfig.m in Sources */,
 				9DF52D661ABA9335004345D0 /* TWTRAPIConstants.m in Sources */,
-				9D30C5D01ACE60E200D0B1FA /* TWTRIdentifier.m in Sources */,
 				6CE57CCB1AE068A300EA9C24 /* TWTRCoreOAuthSigning.m in Sources */,
 				DBB4945F1B4596DC00F08FA5 /* TWTRGenericKeychainItem.m in Sources */,
 				DBC0F0841B55C161006B6BB6 /* TWTRNetworkingPipeline.m in Sources */,

@@ -19,7 +19,6 @@
 @protocol TWTRTimelineDataSource;
 @protocol TWTRTweetViewDelegate;
 @protocol TWTRTimelineDelegate;
-@class TWTRMoPubAdConfiguration;
 @class TWTRTweet;
 
 NS_ASSUME_NONNULL_BEGIN
@@ -52,14 +51,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) id<TWTRTimelineDataSource> dataSource;
 
 /**
- *  The configuration of MoPub ads to show in the timeline. You must
- *  link against the MoPub framework and provide this configuration in order
- *  for ads to be injected.
- *  @note Changing this will force a reload of the timeline. You can only set this once. Must be set on the main thread.
- */
-@property (nonatomic, nullable) TWTRMoPubAdConfiguration *adConfiguration;
-
-/**
  *  Whether action buttons (Like, Share) should be shown on the `TWTRTweetTableViewCell`s inside the tableview.
  */
 @property (nonatomic) BOOL showTweetActions;
@@ -86,16 +77,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (instancetype)initWithDataSource:(nullable id<TWTRTimelineDataSource>)dataSource;
 
-/**
- *  Initializes a timeline view controller with an optional ad configuration. Does not start loading Tweets until `viewWillAppear:` is called.
- *
- *  @param dataSource      A timeline data source object that conforms to the `TWTRTimelineDataSource` protocol.
- *  @param adConfiguration Configuration for the type of MoPub ads to display. Ads will only load after
- *                         the initial timeline is loaded. No ads will be displayed if nil.
- *
- *  @return A fully initialized `TWTRTimelineViewController`. Tweets will not be loaded if the data source is nil.
- */
-- (instancetype)initWithDataSource:(nullable id<TWTRTimelineDataSource>)dataSource adConfiguration:(nullable TWTRMoPubAdConfiguration *)adConfiguration;
 
 - (instancetype)initWithStyle:(UITableViewStyle)style NS_UNAVAILABLE;
 

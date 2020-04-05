@@ -172,7 +172,6 @@
 		379A6D541E95B95200625984 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 379A6D4F1E95B95200625984 /* EXTScope.h */; };
 		379A6D551E95B95200625984 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 379A6D501E95B95200625984 /* metamacros.h */; };
 		379A6D561E95B95200625984 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 379A6D501E95B95200625984 /* metamacros.h */; };
-		379A6D611E95BA3700625984 /* TWTRMoPubNativeAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B3F131C91F9CC0087B8ED /* TWTRMoPubNativeAdView.m */; };
 		379DC7331BFD0759008E0A05 /* TWTRVideoEntityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 379DC7321BFD0759008E0A05 /* TWTRVideoEntityTests.m */; };
 		379F064A1D64DCA200AABE78 /* TWTRMultiPhotoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 379F06481D64DCA200AABE78 /* TWTRMultiPhotoLayout.h */; };
 		379F064B1D64DCA200AABE78 /* TWTRMultiPhotoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 379F06491D64DCA200AABE78 /* TWTRMultiPhotoLayout.m */; };
@@ -258,10 +257,6 @@
 		3D45D6E71B9F7CAA00087F30 /* TWTRCookieStorageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D45D6E41B9F7CAA00087F30 /* TWTRCookieStorageUtil.m */; };
 		3D45D7001B9F8E7100087F30 /* TWTRCookieStorageUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D45D6FF1B9F8E7100087F30 /* TWTRCookieStorageUtilTests.m */; };
 		3D4D2FAC1B79217F0011C544 /* TWTRURLSessionConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D4D2FAA1B79217F0011C544 /* TWTRURLSessionConfig.h */; };
-		3D5AD5791CC06F2700239BBE /* TWTRMoPubVersionChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5AD5771CC06F2700239BBE /* TWTRMoPubVersionChecker.h */; };
-		3D5AD57A1CC06F2700239BBE /* TWTRMoPubVersionChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5AD5771CC06F2700239BBE /* TWTRMoPubVersionChecker.h */; };
-		3D5AD57B1CC06F2700239BBE /* TWTRMoPubVersionChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5AD5781CC06F2700239BBE /* TWTRMoPubVersionChecker.m */; };
-		3D5AD5871CC1591300239BBE /* TWTRMopubVersionCheckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5AD5861CC1591300239BBE /* TWTRMopubVersionCheckerTests.m */; };
 		3D5B0C821B9D3D4F0079A6F6 /* TWTRWebAuthenticationFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA3B281B8CEAE000FEE19D /* TWTRWebAuthenticationFlow.h */; };
 		3D5B0C831B9D3D500079A6F6 /* TWTRWebAuthenticationFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA3B281B8CEAE000FEE19D /* TWTRWebAuthenticationFlow.h */; };
 		3D5BD705197F75FE00C9C0F4 /* GoogleTweet.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D5BD6FC197F75FE00C9C0F4 /* GoogleTweet.json */; };
@@ -281,24 +276,6 @@
 		3D6767E01BE040EC0093EE1B /* TWTRImageSequenceConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6767CF1BE039E20093EE1B /* TWTRImageSequenceConfiguration.m */; };
 		3D682B4418E25A1300145716 /* TWTRAPIConstantsStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D682B3418E25A1300145716 /* TWTRAPIConstantsStatus.m */; };
 		3D682B4A18E25A1300145716 /* TWTRTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D682B3A18E25A1300145716 /* TWTRTweet.m */; };
-		3D6B3F181C91F9CC0087B8ED /* TWTRMoPubAdConfiguration_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6B3F0B1C91F9CC0087B8ED /* TWTRMoPubAdConfiguration_Private.h */; };
-		3D6B3F191C91F9CC0087B8ED /* TWTRMoPubAdConfiguration_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6B3F0B1C91F9CC0087B8ED /* TWTRMoPubAdConfiguration_Private.h */; };
-		3D6B3F1A1C91F9CC0087B8ED /* TWTRMoPubAdConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6B3F0C1C91F9CC0087B8ED /* TWTRMoPubAdConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D6B3F1B1C91F9CC0087B8ED /* TWTRMoPubAdConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6B3F0C1C91F9CC0087B8ED /* TWTRMoPubAdConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D6B3F1C1C91F9CC0087B8ED /* TWTRMoPubAdConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B3F0D1C91F9CC0087B8ED /* TWTRMoPubAdConfiguration.m */; };
-		3D6B3F1E1C91F9CC0087B8ED /* TWTRMoPubAdDisclaimerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6B3F0E1C91F9CC0087B8ED /* TWTRMoPubAdDisclaimerView.h */; };
-		3D6B3F1F1C91F9CC0087B8ED /* TWTRMoPubAdDisclaimerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6B3F0E1C91F9CC0087B8ED /* TWTRMoPubAdDisclaimerView.h */; };
-		3D6B3F201C91F9CC0087B8ED /* TWTRMoPubAdDisclaimerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B3F0F1C91F9CC0087B8ED /* TWTRMoPubAdDisclaimerView.m */; };
-		3D6B3F221C91F9CC0087B8ED /* TWTRMoPubNativeAdContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6B3F101C91F9CC0087B8ED /* TWTRMoPubNativeAdContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D6B3F231C91F9CC0087B8ED /* TWTRMoPubNativeAdContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6B3F101C91F9CC0087B8ED /* TWTRMoPubNativeAdContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D6B3F241C91F9CC0087B8ED /* TWTRMoPubNativeAdContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B3F111C91F9CC0087B8ED /* TWTRMoPubNativeAdContainerView.m */; };
-		3D6B3F261C91F9CC0087B8ED /* TWTRMoPubNativeAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6B3F121C91F9CC0087B8ED /* TWTRMoPubNativeAdView.h */; };
-		3D6B3F271C91F9CC0087B8ED /* TWTRMoPubNativeAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6B3F121C91F9CC0087B8ED /* TWTRMoPubNativeAdView.h */; };
-		3D6B3F2B1C91F9CC0087B8ED /* TWTRTableViewAdPlacer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6B3F141C91F9CC0087B8ED /* TWTRTableViewAdPlacer.h */; };
-		3D6B3F2C1C91F9CC0087B8ED /* TWTRTableViewAdPlacer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B3F151C91F9CC0087B8ED /* TWTRTableViewAdPlacer.m */; };
-		3D6B3F2E1C91F9CC0087B8ED /* TWTRTableViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6B3F161C91F9CC0087B8ED /* TWTRTableViewProxy.h */; };
-		3D6B3F2F1C91F9CC0087B8ED /* TWTRTableViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6B3F161C91F9CC0087B8ED /* TWTRTableViewProxy.h */; };
-		3D6B3F301C91F9CC0087B8ED /* TWTRTableViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B3F171C91F9CC0087B8ED /* TWTRTableViewProxy.m */; };
 		3D7825D518F6788F005FBD08 /* TWTRTweetRepository.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D7825D118F6788F005FBD08 /* TWTRTweetRepository.h */; };
 		3D7825D618F6788F005FBD08 /* TWTRTweetRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7825D218F6788F005FBD08 /* TWTRTweetRepository.m */; };
 		3D80A2BA1C691EEA00C73406 /* TWTRNotificationConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D80A2B81C691EEA00C73406 /* TWTRNotificationConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -318,9 +295,6 @@
 		3D9DDF2719A8156F00291FFC /* TWTRTranslationsUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76623719A80629009233F4 /* TWTRTranslationsUtil.m */; };
 		3DAE93DB1B796CBA00A7F65D /* TWTRURLSessionConfigTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAE93DA1B796CBA00A7F65D /* TWTRURLSessionConfigTests.m */; };
 		3DB7EE5A1B11AD8F006E2E90 /* TWTRImageLoaderTaskManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB7EE591B11AD8F006E2E90 /* TWTRImageLoaderTaskManagerTests.m */; };
-		3DC0C1151C633D6C00F5DACA /* TWTRTableViewProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC0C1141C633D6C00F5DACA /* TWTRTableViewProxyTests.m */; };
-		3DC0C1171C63484E00F5DACA /* TWTRMoPubAdConfigurationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC0C1161C63484E00F5DACA /* TWTRMoPubAdConfigurationTests.m */; };
-		3DC0C1191C634B3300F5DACA /* TWTRTableViewAdPlacerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC0C1181C634B3300F5DACA /* TWTRTableViewAdPlacerTests.m */; };
 		3DC4761C19AFC80A00FE846C /* TWTRTranslationsUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC4761B19AFC80A00FE846C /* TWTRTranslationsUtilTests.m */; };
 		3DCBF12B1C6943950071B049 /* TWTRNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DCBF1291C6943950071B049 /* TWTRNotificationCenter.h */; };
 		3DCBF12C1C6943950071B049 /* TWTRNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCBF12A1C6943950071B049 /* TWTRNotificationCenter.m */; };
@@ -983,9 +957,6 @@
 		3D49A74919B9AD4D0018B381 /* TWTRTweetShareItemProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRTweetShareItemProvider.m; sourceTree = "<group>"; };
 		3D4D2FAA1B79217F0011C544 /* TWTRURLSessionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRURLSessionConfig.h; sourceTree = "<group>"; };
 		3D4D2FAB1B79217F0011C544 /* TWTRURLSessionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRURLSessionConfig.m; sourceTree = "<group>"; };
-		3D5AD5771CC06F2700239BBE /* TWTRMoPubVersionChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWTRMoPubVersionChecker.h; path = MoPub/TWTRMoPubVersionChecker.h; sourceTree = "<group>"; };
-		3D5AD5781CC06F2700239BBE /* TWTRMoPubVersionChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWTRMoPubVersionChecker.m; path = MoPub/TWTRMoPubVersionChecker.m; sourceTree = "<group>"; };
-		3D5AD5861CC1591300239BBE /* TWTRMopubVersionCheckerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWTRMopubVersionCheckerTests.m; path = MoPubTests/TWTRMopubVersionCheckerTests.m; sourceTree = "<group>"; };
 		3D5BD6FC197F75FE00C9C0F4 /* GoogleTweet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; lineEnding = 0; path = GoogleTweet.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.javascript; };
 		3D5BD6FD197F75FE00C9C0F4 /* ManyTweetsResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; lineEnding = 0; path = ManyTweetsResponse.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.javascript; };
 		3D5BD6FE197F75FE00C9C0F4 /* ObamaTweet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; lineEnding = 0; path = ObamaTweet.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.javascript; };
@@ -1007,19 +978,6 @@
 		3D682B3418E25A1300145716 /* TWTRAPIConstantsStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TWTRAPIConstantsStatus.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		3D682B3918E25A1300145716 /* TWTRTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRTweet.h; sourceTree = "<group>"; };
 		3D682B3A18E25A1300145716 /* TWTRTweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TWTRTweet.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		3D6B3F0B1C91F9CC0087B8ED /* TWTRMoPubAdConfiguration_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWTRMoPubAdConfiguration_Private.h; path = MoPub/TWTRMoPubAdConfiguration_Private.h; sourceTree = "<group>"; };
-		3D6B3F0C1C91F9CC0087B8ED /* TWTRMoPubAdConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWTRMoPubAdConfiguration.h; path = MoPub/TWTRMoPubAdConfiguration.h; sourceTree = "<group>"; };
-		3D6B3F0D1C91F9CC0087B8ED /* TWTRMoPubAdConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWTRMoPubAdConfiguration.m; path = MoPub/TWTRMoPubAdConfiguration.m; sourceTree = "<group>"; };
-		3D6B3F0E1C91F9CC0087B8ED /* TWTRMoPubAdDisclaimerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWTRMoPubAdDisclaimerView.h; path = MoPub/TWTRMoPubAdDisclaimerView.h; sourceTree = "<group>"; };
-		3D6B3F0F1C91F9CC0087B8ED /* TWTRMoPubAdDisclaimerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWTRMoPubAdDisclaimerView.m; path = MoPub/TWTRMoPubAdDisclaimerView.m; sourceTree = "<group>"; };
-		3D6B3F101C91F9CC0087B8ED /* TWTRMoPubNativeAdContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWTRMoPubNativeAdContainerView.h; path = MoPub/TWTRMoPubNativeAdContainerView.h; sourceTree = "<group>"; };
-		3D6B3F111C91F9CC0087B8ED /* TWTRMoPubNativeAdContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWTRMoPubNativeAdContainerView.m; path = MoPub/TWTRMoPubNativeAdContainerView.m; sourceTree = "<group>"; };
-		3D6B3F121C91F9CC0087B8ED /* TWTRMoPubNativeAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWTRMoPubNativeAdView.h; path = MoPub/TWTRMoPubNativeAdView.h; sourceTree = "<group>"; };
-		3D6B3F131C91F9CC0087B8ED /* TWTRMoPubNativeAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWTRMoPubNativeAdView.m; path = MoPub/TWTRMoPubNativeAdView.m; sourceTree = "<group>"; };
-		3D6B3F141C91F9CC0087B8ED /* TWTRTableViewAdPlacer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWTRTableViewAdPlacer.h; path = MoPub/TWTRTableViewAdPlacer.h; sourceTree = "<group>"; };
-		3D6B3F151C91F9CC0087B8ED /* TWTRTableViewAdPlacer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWTRTableViewAdPlacer.m; path = MoPub/TWTRTableViewAdPlacer.m; sourceTree = "<group>"; };
-		3D6B3F161C91F9CC0087B8ED /* TWTRTableViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWTRTableViewProxy.h; path = MoPub/TWTRTableViewProxy.h; sourceTree = "<group>"; };
-		3D6B3F171C91F9CC0087B8ED /* TWTRTableViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWTRTableViewProxy.m; path = MoPub/TWTRTableViewProxy.m; sourceTree = "<group>"; };
 		3D76623619A80629009233F4 /* TWTRTranslationsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRTranslationsUtil.h; sourceTree = "<group>"; };
 		3D76623719A80629009233F4 /* TWTRTranslationsUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRTranslationsUtil.m; sourceTree = "<group>"; };
 		3D7825D118F6788F005FBD08 /* TWTRTweetRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TWTRTweetRepository.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -1038,9 +996,6 @@
 		3D9B83231A8C1A25008F0B62 /* TWTRAPIConstantsTimelines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRAPIConstantsTimelines.m; sourceTree = "<group>"; };
 		3DAE93DA1B796CBA00A7F65D /* TWTRURLSessionConfigTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRURLSessionConfigTests.m; sourceTree = "<group>"; };
 		3DB7EE591B11AD8F006E2E90 /* TWTRImageLoaderTaskManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRImageLoaderTaskManagerTests.m; sourceTree = "<group>"; };
-		3DC0C1141C633D6C00F5DACA /* TWTRTableViewProxyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWTRTableViewProxyTests.m; path = MoPubTests/TWTRTableViewProxyTests.m; sourceTree = "<group>"; };
-		3DC0C1161C63484E00F5DACA /* TWTRMoPubAdConfigurationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWTRMoPubAdConfigurationTests.m; path = MoPubTests/TWTRMoPubAdConfigurationTests.m; sourceTree = "<group>"; };
-		3DC0C1181C634B3300F5DACA /* TWTRTableViewAdPlacerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWTRTableViewAdPlacerTests.m; path = MoPubTests/TWTRTableViewAdPlacerTests.m; sourceTree = "<group>"; };
 		3DC4761B19AFC80A00FE846C /* TWTRTranslationsUtilTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRTranslationsUtilTests.m; sourceTree = "<group>"; };
 		3DCBF1291C6943950071B049 /* TWTRNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWTRNotificationCenter.h; path = Notifications/TWTRNotificationCenter.h; sourceTree = "<group>"; };
 		3DCBF12A1C6943950071B049 /* TWTRNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWTRNotificationCenter.m; path = Notifications/TWTRNotificationCenter.m; sourceTree = "<group>"; };
@@ -1866,28 +1821,6 @@
 			path = Social/Syndication/Views;
 			sourceTree = "<group>";
 		};
-		3D6B3F061C91F9B80087B8ED /* MoPub */ = {
-			isa = PBXGroup;
-			children = (
-				3D6B3F0B1C91F9CC0087B8ED /* TWTRMoPubAdConfiguration_Private.h */,
-				3D6B3F0C1C91F9CC0087B8ED /* TWTRMoPubAdConfiguration.h */,
-				3D6B3F0D1C91F9CC0087B8ED /* TWTRMoPubAdConfiguration.m */,
-				3D6B3F0E1C91F9CC0087B8ED /* TWTRMoPubAdDisclaimerView.h */,
-				3D6B3F0F1C91F9CC0087B8ED /* TWTRMoPubAdDisclaimerView.m */,
-				3D6B3F101C91F9CC0087B8ED /* TWTRMoPubNativeAdContainerView.h */,
-				3D6B3F111C91F9CC0087B8ED /* TWTRMoPubNativeAdContainerView.m */,
-				3D6B3F121C91F9CC0087B8ED /* TWTRMoPubNativeAdView.h */,
-				3D6B3F131C91F9CC0087B8ED /* TWTRMoPubNativeAdView.m */,
-				3D6B3F141C91F9CC0087B8ED /* TWTRTableViewAdPlacer.h */,
-				3D6B3F151C91F9CC0087B8ED /* TWTRTableViewAdPlacer.m */,
-				3D6B3F161C91F9CC0087B8ED /* TWTRTableViewProxy.h */,
-				3D6B3F171C91F9CC0087B8ED /* TWTRTableViewProxy.m */,
-				3D5AD5771CC06F2700239BBE /* TWTRMoPubVersionChecker.h */,
-				3D5AD5781CC06F2700239BBE /* TWTRMoPubVersionChecker.m */,
-			);
-			name = MoPub;
-			sourceTree = "<group>";
-		};
 		3D7E54601935463800CCF3AC /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -1952,17 +1885,6 @@
 			);
 			name = Utilities;
 			path = SocialTests/Syndication/Utilities;
-			sourceTree = "<group>";
-		};
-		3DC0C1131C633CEB00F5DACA /* MoPubTests */ = {
-			isa = PBXGroup;
-			children = (
-				3DC0C1161C63484E00F5DACA /* TWTRMoPubAdConfigurationTests.m */,
-				3DC0C1181C634B3300F5DACA /* TWTRTableViewAdPlacerTests.m */,
-				3DC0C1141C633D6C00F5DACA /* TWTRTableViewProxyTests.m */,
-				3D5AD5861CC1591300239BBE /* TWTRMopubVersionCheckerTests.m */,
-			);
-			name = MoPubTests;
 			sourceTree = "<group>";
 		};
 		3DC4761719AFB6B800FE846C /* ResourcesTests */ = {
@@ -2457,7 +2379,6 @@
 				A976551718E0B45400E25169 /* Identity */,
 				3D86577A1B0679B100394428 /* Libraries */,
 				3D682B5318E25A3A00145716 /* Models */,
-				3D6B3F061C91F9B80087B8ED /* MoPub */,
 				A9EE3B3418F4A8870058D356 /* Networking */,
 				3DCBF12D1C694AFE0071B049 /* Notifications */,
 				22BA0E68192560E400A9F03E /* Persistence */,
@@ -2499,7 +2420,6 @@
 				A9FB560E18FDC99B001A4137 /* Identity */,
 				3D38D88C1B0B06CF008EFBA0 /* Libraries */,
 				3DD56F7319051349004A021C /* Models */,
-				3DC0C1131C633CEB00F5DACA /* MoPubTests */,
 				A9EE3B5618F4A8A40058D356 /* NetworkingTests */,
 				3DCBF12E1C694B800071B049 /* Notifications */,
 				22BA0E6D192560F400A9F03E /* PersistenceTests */,
@@ -2611,7 +2531,6 @@
 				37D292871D5BE36F0016692D /* TWTRVideoMediaType.h in Headers */,
 				AAC420931F5F59D8008189E1 /* TWTRTweetMediaView_Private.h in Headers */,
 				AAF0C99A2011991B0057F438 /* TWTRSETweetShareConfiguration.h in Headers */,
-				3D6B3F2E1C91F9CC0087B8ED /* TWTRTableViewProxy.h in Headers */,
 				374250F31A82C219003CFAC2 /* TWTRTimelineDataSource.h in Headers */,
 				3794F9A41A8ACD34008BEA39 /* TWTRUserTimelineDataSource.h in Headers */,
 				AAF0C9A82011991B0057F438 /* TWTRSEFonts.h in Headers */,
@@ -2679,7 +2598,6 @@
 				DBAE47201C1A27F80094E7F0 /* TWTRVideoControlsViewSynchronizer.h in Headers */,
 				375EE2161975BFC400A6E1C1 /* TWTRViewUtil.h in Headers */,
 				AAF0C9AA2011991B0057F438 /* TWTRSETweetShareViewController.h in Headers */,
-				3D6B3F1A1C91F9CC0087B8ED /* TWTRMoPubAdConfiguration.h in Headers */,
 				DB01619A1C87931500B329AD /* TWTRTweetDelegationHelper.h in Headers */,
 				DB6DF00C1C1FADB90025D42C /* TWTRVideoViewController.h in Headers */,
 				3D7825D518F6788F005FBD08 /* TWTRTweetRepository.h in Headers */,
@@ -2693,7 +2611,6 @@
 				AAF0C9D52011991B0057F438 /* TWTRSEFrameworkLazyLoading.h in Headers */,
 				379F0B0C1B4355CC001951A2 /* TWTRShareButton.h in Headers */,
 				9D573CB21B20C11C00B63E8C /* TWTRAssetURLSessionConfig.h in Headers */,
-				3D6B3F261C91F9CC0087B8ED /* TWTRMoPubNativeAdView.h in Headers */,
 				9DE7F1B01ACCAF720029CE5A /* TWTRSystemAccountSerializer.h in Headers */,
 				AAF0C9D82011991B0057F438 /* NSArray+Helpers.h in Headers */,
 				3733E26E1EA8107B00E95681 /* TWTRLocalizedResources.h in Headers */,
@@ -2744,7 +2661,6 @@
 				3DFAD00C1B337FCE0076E10A /* TWTRTimelineDataSource_Constants.h in Headers */,
 				A9A955B919903E5E0074867E /* TWTRTwitter_Private.h in Headers */,
 				AAF0C9CD2011991B0057F438 /* TWTRSETweetCocoaItemProviderAttachmentView.h in Headers */,
-				3D6B3F1E1C91F9CC0087B8ED /* TWTRMoPubAdDisclaimerView.h in Headers */,
 				3D1D758718FCBDEB00C246AB /* TWTRStringUtil.h in Headers */,
 				3DDF60081A95192A00CDA855 /* TWTRTimelineViewController.h in Headers */,
 				37B68998198B18B000E772CA /* TWTRTweetPresenter.h in Headers */,
@@ -2773,12 +2689,10 @@
 				378E40AA198C5DAB00EE3364 /* TWTRTweetViewDelegate.h in Headers */,
 				AAF0C9E72011991B0057F438 /* TWTRSELocationMapTableViewHeaderView.h in Headers */,
 				3DDF60041A9518B400CDA855 /* TWTRTimelineCursor.h in Headers */,
-				3D6B3F181C91F9CC0087B8ED /* TWTRMoPubAdConfiguration_Private.h in Headers */,
 				DB36E00B1CEA7F66002F959A /* TWTRVideoDeeplinkConfiguration.h in Headers */,
 				3255B3BC1937E373005EE3CE /* TWTRTweetMediaEntity.h in Headers */,
 				3DE8304E1B1180EB00D85486 /* TWTRImageLoaderTaskManager.h in Headers */,
 				370F2F1619B693DE00A51872 /* TWTRAttributedLabel.h in Headers */,
-				3D6B3F221C91F9CC0087B8ED /* TWTRMoPubNativeAdContainerView.h in Headers */,
 				373C8A121A83F555005A02D9 /* TWTRTimelineParser.h in Headers */,
 				DB9129B21B94BED000AC397E /* TWTRComposerViewController.h in Headers */,
 				AAC420791F561CB3008189E1 /* TWTRVideoPlayerView.h in Headers */,
@@ -2812,7 +2726,6 @@
 				3283C11B19522D56007FBF38 /* TWTRTweetHashtagEntity.h in Headers */,
 				3785414819AFE97E00789130 /* TWTRURLUtility.h in Headers */,
 				3D2B9F311963477F00BFA61B /* TWTRTweet_Private.h in Headers */,
-				3D5AD5791CC06F2700239BBE /* TWTRMoPubVersionChecker.h in Headers */,
 				3D45D6E51B9F7CAA00087F30 /* TWTRCookieStorageUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2823,12 +2736,10 @@
 			files = (
 				DB610F2D1CAC6A8D006F93E0 /* TWTRTweetCashtagEntity.h in Headers */,
 				DB01619B1C87931500B329AD /* TWTRTweetDelegationHelper.h in Headers */,
-				3D6B3F1B1C91F9CC0087B8ED /* TWTRMoPubAdConfiguration.h in Headers */,
 				BFE839A11ADF28A50035CBA1 /* TWTRWebViewController.h in Headers */,
 				3DFAD0301B33991E0076E10A /* TWTRListTimelineDataSource.h in Headers */,
 				DB52BC681B98ED22001715A4 /* TWTRTwitterTextEntity.h in Headers */,
 				BFE839831ADF24CD0035CBA1 /* TWTRKit.h in Headers */,
-				3D5AD57A1CC06F2700239BBE /* TWTRMoPubVersionChecker.h in Headers */,
 				DB610F2E1CAC6AF7006F93E0 /* TWTRTweetHashtagEntity.h in Headers */,
 				DB9DD78D1B8B978E00350931 /* TWTRWebAuthenticationViewController.h in Headers */,
 				37FC615B1C56F246004C0116 /* TWTRTweetViewSizeCalculator.h in Headers */,
@@ -2838,10 +2749,8 @@
 				BFE839941ADF287E0035CBA1 /* TWTRAPIClient.h in Headers */,
 				BFE839871ADF283C0035CBA1 /* TWTRTimelineDataSource.h in Headers */,
 				379A6D521E95B95200625984 /* EXTKeyPathCoding.h in Headers */,
-				3D6B3F1F1C91F9CC0087B8ED /* TWTRMoPubAdDisclaimerView.h in Headers */,
 				BFE839AB1ADF28FD0035CBA1 /* TWTRTimelineCursor.h in Headers */,
 				BF318F071AE03B870082353A /* TWTRTimelineType.h in Headers */,
-				3D6B3F2F1C91F9CC0087B8ED /* TWTRTableViewProxy.h in Headers */,
 				3D5B0C831B9D3D500079A6F6 /* TWTRWebAuthenticationFlow.h in Headers */,
 				225826721DDBDE9B004AFF06 /* TWTRTimelineFilter.h in Headers */,
 				DBAE46F91C18CE050094E7F0 /* TWTRVideoPlayerOutputView.h in Headers */,
@@ -2859,9 +2768,7 @@
 				BFE8398B1ADF285A0035CBA1 /* TWTRUserTimelineDataSource.h in Headers */,
 				BFE8398A1ADF284F0035CBA1 /* TWTRJSONSerialization.h in Headers */,
 				BF318F091AE03BE50082353A /* TWTRTimelineViewController.h in Headers */,
-				3D6B3F191C91F9CC0087B8ED /* TWTRMoPubAdConfiguration_Private.h in Headers */,
 				BF318F031AE03B400082353A /* TWTRComposer.h in Headers */,
-				3D6B3F2B1C91F9CC0087B8ED /* TWTRTableViewAdPlacer.h in Headers */,
 				DB610F311CAC7191006F93E0 /* TWTRVideoMetaData.h in Headers */,
 				2297B2C71DDCDD4400B859B0 /* TWTRTimelineFilterManager.h in Headers */,
 				DB6DF1931C20FCB90025D42C /* TWTRVideoPlaybackRules.h in Headers */,
@@ -2872,8 +2779,6 @@
 				6C45B2DB1B013FAA00CD0FF2 /* TWTRTwitterAPIServiceConfig.h in Headers */,
 				DB9129D11B94C60300AC397E /* TWTRComposerViewController.h in Headers */,
 				DB6DF00D1C1FADB90025D42C /* TWTRVideoViewController.h in Headers */,
-				3D6B3F231C91F9CC0087B8ED /* TWTRMoPubNativeAdContainerView.h in Headers */,
-				3D6B3F271C91F9CC0087B8ED /* TWTRMoPubNativeAdView.h in Headers */,
 				BFE839A71ADF28F00035CBA1 /* TWTRConstants_Private.h in Headers */,
 				BF318EB21ADF320A0082353A /* TWTRDateFormatter.h in Headers */,
 				BF318F041AE03B4E0082353A /* TWTRTweetView.h in Headers */,
@@ -3116,7 +3021,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				377784191E96B8D200BC4830 /* TUDelorean+Rollback.m in Sources */,
-				3DC0C1191C634B3300F5DACA /* TWTRTableViewAdPlacerTests.m in Sources */,
 				376488C61D6FC191002C449E /* TWTRMultiPhotoLayoutTests.m in Sources */,
 				377784211E96B8D200BC4830 /* TWTRStubTweetCache.m in Sources */,
 				2297B2DB1DDD3C0800B859B0 /* TWTRTimelineFilterManagerTests.m in Sources */,
@@ -3148,7 +3052,6 @@
 				3D45D7001B9F8E7100087F30 /* TWTRCookieStorageUtilTests.m in Sources */,
 				DB6DF1971C20FD700025D42C /* TWTRVideoPlaybackRulesTests.m in Sources */,
 				37B008271C0CF468009D27D5 /* TWTRImageTestHelper.m in Sources */,
-				3D5AD5871CC1591300239BBE /* TWTRMopubVersionCheckerTests.m in Sources */,
 				3D27494B19A40A3300A5B93F /* TWTRTweetRepositoryTests.m in Sources */,
 				3777841D1E96B8D200BC4830 /* TWTRMockURLSessionProtocol.m in Sources */,
 				3DCD62411BAC7E34002C230C /* TWTRTwitterAPIConfigurationTests.m in Sources */,
@@ -3160,7 +3063,6 @@
 				3DC4761C19AFC80A00FE846C /* TWTRTranslationsUtilTests.m in Sources */,
 				AAE6EB9E1F55D513006CF050 /* TWTRVideoControlsViewTests.m in Sources */,
 				37A07C251D5529F8002FEF05 /* TWTRVideoPlayerOutputViewTests.m in Sources */,
-				3DC0C1151C633D6C00F5DACA /* TWTRTableViewProxyTests.m in Sources */,
 				37B008201C0CEEE9009D27D5 /* TWTRImageScrollViewTests.m in Sources */,
 				22BA0E6F192560F400A9F03E /* TWTRPersistentStoreTest.m in Sources */,
 				370B4EF91A8BFEFB004FBA60 /* TWTRCollectionTimelineDataSourceTests.m in Sources */,
@@ -3198,7 +3100,6 @@
 				374306A01B45ADC000D7C540 /* TWTRShareButtonTests.m in Sources */,
 				3DCC41961B6B657800A08C7D /* TWTRTestSessionStore.m in Sources */,
 				99C96FBF19E4A7E100AF2304 /* TWTRWebViewControllerTests.m in Sources */,
-				3DC0C1171C63484E00F5DACA /* TWTRMoPubAdConfigurationTests.m in Sources */,
 				378E40A3198C129200EE3364 /* TWTRTableViewCellTests.m in Sources */,
 				37FBC2AF1B4DC67C006949E9 /* TWTRLikeButtonTests.m in Sources */,
 				BF8EF2DF1AFD4F65008B4829 /* TWTRSessionTests.m in Sources */,
@@ -3261,7 +3162,6 @@
 				DB6DF0071C1FAD610025D42C /* TWTRVideoViewController.m in Sources */,
 				AAC420721F561C9F008189E1 /* TWTRVideoPlayerView.m in Sources */,
 				AAF0C9DB2011991B0057F438 /* TWTRSESelectionTableViewController.m in Sources */,
-				3D6B3F201C91F9CC0087B8ED /* TWTRMoPubAdDisclaimerView.m in Sources */,
 				3799F2FF1CE687EE001B2DDE /* TWTRTimelineMessageView.m in Sources */,
 				37050B801C77C13300E110F8 /* TWTRStore.m in Sources */,
 				AAF0C9B72011991B0057F438 /* TWTRSEUIBundle.m in Sources */,
@@ -3328,13 +3228,10 @@
 				AAF0C9A92011991B0057F438 /* TWTRSETweet.m in Sources */,
 				37F194791BB1D2F100703E53 /* TWTRRetweetView.m in Sources */,
 				DB2C401E1C1633CF009E8BDD /* TWTRMediaPresentationController.m in Sources */,
-				3D6B3F301C91F9CC0087B8ED /* TWTRTableViewProxy.m in Sources */,
 				AAF0C9EB2011991B0057F438 /* TWTRSELocationMapTableViewHeaderView.m in Sources */,
-				379A6D611E95BA3700625984 /* TWTRMoPubNativeAdView.m in Sources */,
 				373C8A1A1A83F874005A02D9 /* TWTRJSONSerialization.m in Sources */,
 				9DE7F1B11ACCAF720029CE5A /* TWTRSystemAccountSerializer.m in Sources */,
 				AAF0C9BE2011991B0057F438 /* TWTRSETweetComposerTableViewDataSource.m in Sources */,
-				3D6B3F1C1C91F9CC0087B8ED /* TWTRMoPubAdConfiguration.m in Sources */,
 				37DB642D1946516D002B8A8C /* TWTRTweetTableViewCell.m in Sources */,
 				DB0410641D7F20FE003274D9 /* TWTRMultiImageViewController.m in Sources */,
 				3733E2641EA80E7E00E95681 /* TWTRWordRange.m in Sources */,
@@ -3358,12 +3255,10 @@
 				37B6828A1C6D3CB7009C1763 /* TWTRSubscription.m in Sources */,
 				AAF0C9B62011991B0057F438 /* TWTRSETweetShareNavigationController.m in Sources */,
 				3D682B4A18E25A1300145716 /* TWTRTweet.m in Sources */,
-				3D5AD57B1CC06F2700239BBE /* TWTRMoPubVersionChecker.m in Sources */,
 				A976554418E0B45400E25169 /* TWTRWebViewController.m in Sources */,
 				3785414919AFE97E00789130 /* TWTRURLUtility.m in Sources */,
 				AAF0C9BF2011991B0057F438 /* TWTRSEConfigurationSelectionTableViewCell.m in Sources */,
 				377AF9351E7A0359004099F9 /* TWTRSharedComposerWrapper.m in Sources */,
-				3D6B3F241C91F9CC0087B8ED /* TWTRMoPubNativeAdContainerView.m in Sources */,
 				22BA0E6C192560E400A9F03E /* TWTRPersistentStore.m in Sources */,
 				9D573CB31B20C11C00B63E8C /* TWTRAssetURLSessionConfig.m in Sources */,
 				3D8F65431AC28AD2003876F8 /* TWTRTweet_Constants.m in Sources */,
@@ -3394,7 +3289,6 @@
 				373C8A141A83F555005A02D9 /* TWTRTimelineParser.m in Sources */,
 				AAF0C9BB2011991B0057F438 /* TWTRSEBaseTableViewCell.m in Sources */,
 				37447810199D97BC00C18533 /* TWTROSVersionInfo.m in Sources */,
-				3D6B3F2C1C91F9CC0087B8ED /* TWTRTableViewAdPlacer.m in Sources */,
 				3D8657831B06860C00394428 /* TWTRImageLoader.m in Sources */,
 				6C58C4D41AE7109A00D042C7 /* TWTROAuthSigning.m in Sources */,
 				DB6B8AA91C505D050059B277 /* TWTREntityCollection.m in Sources */,

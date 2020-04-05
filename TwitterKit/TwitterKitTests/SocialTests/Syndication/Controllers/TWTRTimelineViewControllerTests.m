@@ -19,7 +19,6 @@
 #import <UIKit/UIKit.h>
 #import "TWTRFixtureLoader.h"
 #import "TWTRKit.h"
-#import "TWTRMoPubAdConfiguration.h"
 #import "TWTRNotificationCenter.h"
 #import "TWTRNotificationConstants.h"
 #import "TWTRProfileHeaderView.h"
@@ -47,7 +46,6 @@
 
 @property (nonatomic) TWTRTimelineViewController *timeline;
 @property (nonatomic) id mockDataSource;
-@property (nonatomic) TWTRMoPubAdConfiguration *adConfig;
 
 @end
 
@@ -65,7 +63,6 @@
     TWTRStubTwitterClient *stubClient = [TWTRStubTwitterClient stubTwitterClient];
     stubClient.responseData = [TWTRFixtureLoader manyTweetsData];
 
-    self.adConfig = [[TWTRMoPubAdConfiguration alloc] initWithAdUnitID:@"123" keywords:@"foo:bar,baz:qux"];
     TWTRUserTimelineDataSource *dataSource = [[TWTRUserTimelineDataSource alloc] initWithScreenName:@"billgates" APIClient:stubClient];
     self.mockDataSource = OCMPartialMock(dataSource);
     self.timeline = [[TWTRTimelineViewController alloc] initWithDataSource:self.mockDataSource];
@@ -230,22 +227,6 @@
 - (void)testTimelineViewController_HidesActionsByDefault
 {
     XCTAssert(self.timeline.showTweetActions == NO);
-}
-
-#pragma mark - MoPub Integration
-
-- (void)testAdConfigUnsetByDefault
-{
-    TWTRTimelineViewController *vc = [[TWTRTimelineViewController alloc] initWithDataSource:self.mockDataSource];
-    XCTAssertNil(vc.adConfiguration);
-}
-
-- (void)testAdConfigCanOnlyBeSetOnce
-{
-    TWTRMoPubAdConfiguration *adConfig2 = [[TWTRMoPubAdConfiguration alloc] initWithAdUnitID:@"1" keywords:@"foo:bar"];
-    TWTRTimelineViewController *vc = [[TWTRTimelineViewController alloc] initWithDataSource:self.mockDataSource adConfiguration:self.adConfig];
-    vc.adConfiguration = adConfig2;
-    XCTAssertEqual(vc.adConfiguration, self.adConfig);
 }
 
 @end
