@@ -133,10 +133,13 @@ static TWTRTwitter *sharedTwitter;
 
 - (void)startWithConsumerKey:(NSString *)consumerKey consumerSecret:(NSString *)consumerSecret
 {
-    [self startWithConsumerKey:consumerKey consumerSecret:consumerSecret accessGroup:nil];
+    [self startWithConsumerKey:consumerKey consumerSecret:consumerSecret accessGroup:nil callback:nil];
 }
-
 - (void)startWithConsumerKey:(NSString *)consumerKey consumerSecret:(NSString *)consumerSecret accessGroup:(NSString *)accessGroup
+{
+    [self startWithConsumerKey:consumerKey consumerSecret:consumerSecret accessGroup:accessGroup callback:nil];
+}
+- (void)startWithConsumerKey:(NSString *)consumerKey consumerSecret:(NSString *)consumerSecret accessGroup:(NSString *)accessGroup callback:(NSString *)callback
 {
     if (self.isInitialized) {
         return;
@@ -149,7 +152,7 @@ static TWTRTwitter *sharedTwitter;
     [self ensureResourcesBundleExists];
     [self setupAPIServiceConfigs];
 
-    self->_authConfig = [[TWTRAuthConfig alloc] initWithConsumerKey:consumerKey consumerSecret:consumerSecret];
+    self->_authConfig = [[TWTRAuthConfig alloc] initWithConsumerKey:consumerKey consumerSecret:consumerSecret callback:callback];
 
     NSString *cacheDir = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject];
 

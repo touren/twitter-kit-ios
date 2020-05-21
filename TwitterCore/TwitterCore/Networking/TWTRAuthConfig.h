@@ -32,6 +32,10 @@ NS_ASSUME_NONNULL_BEGIN
  *  The consumer secret of the Twitter application.
  */
 @property (nonatomic, copy, readonly) NSString *consumerSecret;
+/**
+ *  The callback scheme of the Twitter application.
+ */
+@property (nonatomic, copy, readonly) NSString *callback;
 
 /**
  *  Returns an `TWTRAuthConfig` object initialized by copying the values from the consumer key and consumer secret.
@@ -40,6 +44,8 @@ NS_ASSUME_NONNULL_BEGIN
  *  @param consumerSecret The consumer secret.
  */
 - (instancetype)initWithConsumerKey:(NSString *)consumerKey consumerSecret:(NSString *)consumerSecret;
+
+- (instancetype)initWithConsumerKey:(NSString *)consumerKey consumerSecret:(NSString *)consumerSecret callback:(nullable NSString * )callback;
 
 /**
  *  Unavailable. Use `initWithConsumerKey:consumerSecret:` instead.

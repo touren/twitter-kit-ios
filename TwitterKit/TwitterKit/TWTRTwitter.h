@@ -67,6 +67,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)startWithConsumerKey:(NSString *)consumerKey consumerSecret:(NSString *)consumerSecret accessGroup:(nullable NSString *)accessGroup;
 
+- (void)startWithConsumerKey:(NSString *)consumerKey consumerSecret:(NSString *)consumerSecret accessGroup:(nullable NSString *)accessGroup callback:(nullable NSString *)callback;
+
 /**
  *  The current version of this kit.
  */

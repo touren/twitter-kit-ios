@@ -30,9 +30,25 @@
 {
     NSParameterAssert(consumerKey);
     NSParameterAssert(consumerSecret);
+    self = [self initWithConsumerKey:consumerKey
+                      consumerSecret:consumerSecret
+                            callback:nil];
+    return self;
+}
+
+- (instancetype)initWithConsumerKey:(NSString *)consumerKey
+                     consumerSecret:(NSString *)consumerSecret
+                           callback:(NSString *)callback
+{
+    
+    NSParameterAssert(consumerKey);
+    NSParameterAssert(consumerSecret);
     if ((self = [super init])) {
         _consumerKey = [consumerKey copy];
         _consumerSecret = [consumerSecret copy];
+        if (callback){
+            _callback = [callback copy];
+        }
     }
     return self;
 }

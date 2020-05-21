@@ -36,7 +36,12 @@
 - (instancetype)initWithAuthConfig:(TWTRAuthConfig *)config
 {
     if (self = [super init]) {
-        self.twitterKitURLScheme = [NSString stringWithFormat:@"twitterkit-%@", config.consumerKey];
+        if (config.callback){
+            self.twitterKitURLScheme = config.callback;
+        }
+        else {
+            self.twitterKitURLScheme = [NSString stringWithFormat:@"twitterkit-%@", config.consumerKey];
+        }
         self.twitterAuthURL = [NSString stringWithFormat:@"twitterauth://authorize?consumer_key=%@&consumer_secret=%@&oauth_callback=%@", config.consumerKey, config.consumerSecret, self.twitterKitURLScheme];
     }
     return self;
